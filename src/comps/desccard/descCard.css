@@ -1,0 +1,40 @@
+
+#descCard{
+    height: 300px;
+    width: 340px;
+    border-radius: 4px;
+    margin-top: 8%;
+    transition: 2s all ease;
+    text-align: center;
+    box-shadow: 1px 3px 4px 1px rgb(0, 0, 0, 0.4);
+    border-radius: 110px 8px 8px 8px;
+    position: relative;
+    margin-top: -3.4%;
+    background-color: white;
+}
+#descCardImg{
+    height: 60%;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 14%;
+}
+#descImg{
+    height: 100px;
+    width: 100px;
+}
+#descCardDesc {
+    height: 40%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+}
+@media only screen and (max-width: 640px){
+    #descCard {
+        height: 260px;
+        width: 280px;
+        margin-left: 12%;
+        margin-top: 10%;
+    }
+}

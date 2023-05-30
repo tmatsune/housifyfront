@@ -1,0 +1,210 @@
+#reserveMain{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6%;
+}
+#houseDesc{
+    font-family: 'Poppins', sans-serif;
+}
+#resScreen{
+    box-sizing: border-box;
+    padding: 4%;
+}
+#reserveContainer0{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+#reserveContainer1{
+    margin-top: -4%;
+    height: 400px;
+    width: 100%;
+}
+#reserveContainer2 {
+    height: 580px;
+    width: 100%;
+}
+
+#reserveWrapper0 {
+    width: 70%;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+}
+#reserveWrapper1 {
+    width: 30%;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+    margin-left: 2%;
+}
+#flexContainer{
+    display: flex;
+}
+#houseDetWrapper{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#detailsCard{
+    height: 90px;
+    width: 200px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(47, 47, 47);
+    border-radius: 12px;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 6.8%;
+    padding-top: 10.8%;
+}
+#detailsImg{
+    height: 40px;
+    width: 40px;
+    margin-top: -6px;
+    margin-right: 4px;
+}
+#reserveWrapper1{
+    width: 60%;
+}
+#houseDetWrapper1{
+    margin-top: 2.8%;
+}
+#calWrapper{
+    width: 40%;
+    height: 40%;
+    box-sizing: border-box;
+    padding: 2%;
+}
+#calCard{
+    height: 420px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: 4%;
+    box-shadow: 0px 0px 10px 2px rgb(50, 50, 50, 0.2);
+}
+#makeResBtn{
+    margin-left: 10%;
+    margin-top: 2%;
+    border-style: solid;
+    border-color: var(--mainCol);
+    border-width: 0.1px;
+    padding: 6px;
+    border-radius: 12px;
+    padding-left: 24%;
+    padding-right: 24%;
+    color: white;
+    background-color: var(--mainCol);
+}
+#makeResBtn:hover{
+    background-color: white;
+    color: var(--mainCol);
+}
+select {
+    border-radius: 4px;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#hostCard{
+    width: 36%;
+    height: 80%;
+    border-radius: 14px;
+    box-shadow: 0px 0px 18px 1px rgb(50, 50, 50, 0.2);
+    margin-left: 6%;
+    box-sizing: border-box;
+    padding: 4%;
+    text-align: center;
+}
+#hostCard h3{
+    font-family: var(--mul)
+}
+#profileCardWrapper{
+    width: 80%;
+    height: 500px;
+    background-color: rgb(222, 222, 222);
+    border-radius: 14px;
+    margin-top: 4%;
+    margin-left: 8%;
+    box-sizing: border-box;
+    padding-top: 8%;
+}
+#profileCard{
+    width: 70%;
+    height: 320px;
+    background-color: white;
+    box-shadow: 0px 0px 12px 2px rgb(0, 0, 0, 0.2);
+    border-radius: 22px;
+    margin-left: 14.4%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 2%;
+}
+#profDescCard{
+    width: 44%;
+    height: 80%;
+    margin-left: 4.4%;
+    margin-top: 6%;
+}
+#profDescImg{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-left: 24%;
+    margin-top: 20%;
+}
+#load2{
+    position: absolute;
+    left: 40%;
+    top: 100%;
+}
+#housedata{
+    display: flex;
+}
+@media only screen and (max-width: 780px) {
+    #reserveContainer0{
+        display: inline;
+    }
+    #reserveWrapper0{
+        width: 92%;
+    }
+    #reserveWrapper1{
+        width: 92%;
+    }
+    #reserveContainer1{
+        margin-top: 4%;
+        height: 500px;
+        display: inline;
+    }
+    #flexContainer{
+        
+    }
+    #houseDetWrapper {
+        display: inline;
+    }
+    #detailsCard{
+        width: 340px;
+    }
+    #calWrapper {
+        width: 90%;
+    }
+    #calCard {
+        position: absolute;
+        height: 420px;
+        border-radius: 12px;
+        box-sizing: border-box;
+        padding: 4%;
+        box-shadow: 0px 0px 10px 2px rgb(50, 50, 50, 0.2);
+        bottom: -230%;
+        left: 10%;
+    }
+    #reserveContainer2 {
+        height: 1380px;
+        width: 100%;
+    }
+}

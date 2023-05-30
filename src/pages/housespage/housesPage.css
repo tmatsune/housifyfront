@@ -1,0 +1,59 @@
+
+#roomsMain{
+    height: 100%;
+    overflow: hidden;
+    overflow: scroll;
+}
+#roomContainer0{
+    height: 14%;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 2%;
+    border-style: solid;
+    border-color: black;
+    border-width: .1px;
+}
+#roomContainer1{
+    width: 100%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    box-sizing: border-box;
+    padding: 2%;
+    border-bottom: none;
+}
+#categDiv{
+    width: 10%;
+    margin-left: 2.4%;
+    margin-top: -1%;
+    cursor: pointer;
+    text-align: center;
+}
+#cImg{
+    height: 38px;
+    width: 38px;
+    margin-left: 35.4%;
+}
+#categDiv p{
+}
+@media only screen and (max-width: 780px) {
+    #roomContainer0{
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    #categDiv {
+        width: 12%;
+        margin-left: 2.4%;
+        margin-top: -1%;
+    }
+    #cImg {
+        height: 24px;
+        width: 24px;
+        margin-left: 22.4%;
+    }
+    #roomContainer1 {
+        display: inline;
+    }
+    
+}

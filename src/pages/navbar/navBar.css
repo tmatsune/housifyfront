@@ -1,0 +1,70 @@
+
+:root{
+    --navheight: -60%;
+    --disp: inline;
+    --mainCol: rgb(255, 83, 20);
+    --pop: font-family: 'Poppins', sans-serif;
+    --mul: font-family: 'Mulish', sans-serif;
+}
+#nav {
+    background-color: white;
+    padding: 1.8%;
+    width: 100%;
+    display: block;
+    left: 0%;
+    color: var(--mainCol);
+    border-color: black;
+    border-bottom: solid;
+    border-width: .1px;
+}
+#navul{
+    display: flex;
+    margin-left: 44%;
+}
+header ul a{
+    margin-left: 10%;
+    font-weight: 800;
+}
+#profileImage{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    z-index: 10;
+    top: 1%;
+    right: 2%;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1px;
+    border-radius: 50%;
+}
+@media only screen and (max-width:640px) {
+    #nav{
+        position: absolute;
+        padding: 2.2%;
+        top: var(--navheight);
+        transition: .6s ease-in;
+    }
+    #navul{
+        margin-left: 40%;
+        display: var(--disp);
+    }
+    #burger{
+        height: 20px;
+        width: 20px;
+        border-style: solid;
+        position: absolute;
+        border-radius: 12px;
+        top:1%;
+        display: block;
+        left:1%;
+        z-index: 10;
+    }
+    #burger span{
+        display: block;
+        width: 24px;
+        height: 4px;
+        margin: 4px auto;
+        background-color: rgb(175, 175, 175);
+    }
+
+}

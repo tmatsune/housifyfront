@@ -1,0 +1,56 @@
+#houseCardMain{
+    height: 340px;
+    width: 280px;
+    margin-top: 0%;
+    margin-left: 8%;
+}
+#houseImgDiv{
+    height: 70%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 14px;
+
+}
+#houseDescDiv{
+    height: 30%;
+    box-sizing: border-box;
+    padding: 2%;
+    line-height: 20px;
+    display: flex;
+}
+#houseDiv1{
+    margin-top: 2%;
+    width: 60%;
+}
+#houseDiv2{
+    margin-top: 2%;
+    width: 40%;
+    margin-left: 8%;
+}
+#book{
+    height: 90px;
+    width: 140px;
+    position: relative;
+    top: 58%;
+    right: 8.6%;
+    cursor: pointer;
+}
+#book:hover{
+    animation: popup .3s ease-in;
+    transform: scale(1.22);
+}
+@keyframes popup {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.22);
+    }
+}
+@media only screen and (max-width: 780px) {
+    #houseCardMain {
+        height: 360px;
+        width: 310px;
+        margin-left: 12.4%;
+    }
+}

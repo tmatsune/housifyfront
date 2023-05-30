@@ -1,0 +1,153 @@
+#homeScreen{
+    height: 100%;
+}
+#homeContainer0{
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 1%;
+}
+#startBtn{
+    background-color: var(--mainCol);
+    color: white;
+    padding: 6px;
+    border-radius: 12px;
+    margin-top: 1%;
+    border-color: var(--mainCol);
+    border-style: solid;
+    border-width: 1px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+#startBtn:hover{
+    background-color: inherit;
+    border-color: var(--mainCol);
+    color: var(--mainCol);
+    border-style: solid;
+}
+#descWrapper{
+    margin-top: 11%;
+    margin-left: 6%;
+    margin-bottom: 16%;
+    animation: fadeIn .8s ease-out;
+}
+@keyframes fadeIn {
+    0%{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+#calPicker{
+    width: 360px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    border-radius: 12px;
+    box-shadow: 2px 3px 4px 1px rgb(0, 0, 0, 0.6);
+    margin-left: 38%;
+    margin-top: 1%;
+}
+#subBtn{
+    border-style: solid;
+    border-radius: 6px;
+    background-color: var(--mainCol);
+    padding: 6px;
+    color: white;
+    cursor: pointer;
+    border-width: 1px;
+    cursor: pointer;
+}
+#subBtn:hover{
+    background-color: white;
+    border-color: var(--mainCol);
+    color: var(--mainCol);
+}
+#homeContainer2{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    box-sizing: border-box;
+}
+#homeContainer1{
+    height: 340px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+#homeContainerDoub{
+    height: 400px;
+    width: 100%;
+    background-color: var(--mainCol);
+    display: flex;
+}
+#deals{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 4%;
+}
+#dealsImg{
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#dealsImgImg{
+    width: 80%;
+}
+#homeContainer3{
+    height: 360px;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+#homeWrapper3{
+    height: 340px;
+    width: 88%;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;  
+    margin-left: 6%;
+    background-position: center;
+    background-size: cover;
+}
+@media only screen and (max-width: 640px) {
+    #homeContainer0{
+        height: 500px;
+        width: 84%;
+        border-style: solid;
+        border-radius: 12px;
+        margin-left: 7%;
+        margin-top: 10%;
+        box-shadow: 2px 3px 4px 1px rgb(0, 0, 0, 0.6);
+    }
+    #descWrapper {
+        margin-top: 14%;
+    }
+    #calPicker {
+        width: 220px;
+        height: 40px;
+        margin-left: 17%;
+        margin-top: 42%;
+    }
+    #homeContainer2{
+        display: inline;
+    }
+    #homeContainer1{
+        display: inline;
+    }
+    #homeContainer3 {
+        height: 340px;
+        margin-top: 10%;
+    }
+
+}

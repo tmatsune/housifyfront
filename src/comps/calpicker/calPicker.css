@@ -1,0 +1,89 @@
+
+#calPicker {
+    width: 360px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    border-radius: 38px;
+    box-shadow: 2px 3px 4px 1px rgb(0, 0, 0, 0.6);
+    margin-left: 38%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+#calPicker1{
+    width: 360px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    border-radius: 38px;
+    box-shadow: 2px 3px 4px 1px rgb(0, 0, 0, 0.6);
+    margin-left: 38%;
+    margin-top: 2%;
+}
+
+#subBtn {
+    border-style: solid;
+    border-radius: 6px;
+    background-color: var(--mainCol);
+    padding: 6px;
+    color: white;
+    cursor: pointer;
+    border-width: 1px;
+    cursor: pointer;
+    margin-left: -30%;
+}
+
+#subBtn:hover {
+    background-color: white;
+    border-color: var(--mainCol);
+    color: var(--mainCol);
+}
+#abs{
+    margin-right: 10%;
+}
+#ser{
+    height: 50px;
+    width: 50px;
+    margin-top: -22%;
+}
+#ser:hover{
+    transform: scale(1.04);
+}
+#third1{
+    width: 10%;
+}
+#third2{
+
+    width: 60%;
+}
+#third3{
+    width: 20%;
+    color: black;
+}
+#myRange{
+    width: 100%;
+    background-color: black;
+}
+@media only screen and (max-width: 640px) {
+    #calPicker {
+        width: 220px;
+        height: 40px;
+        margin-left: 18%;
+        margin-top: 62%;
+    }
+    #ser {
+        height:30px;
+        width: 30px;
+        margin-bottom: 10%;
+    }
+    #calPicker1{
+        width: 240px;
+        height: 60px;
+        background-color: white;
+        display: flex;
+        border-radius: 38px;
+        box-shadow: 2px 3px 4px 1px rgb(0, 0, 0, 0.6);
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+}

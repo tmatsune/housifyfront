@@ -1,0 +1,14 @@
+#resScreen{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 3%;
+}
+#resContainer0{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+}

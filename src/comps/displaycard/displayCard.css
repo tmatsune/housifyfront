@@ -1,0 +1,54 @@
+
+
+#dispCard{
+    height: 300px;
+    width: 340px;
+    border-radius: 4px;
+    margin-top: 6%;
+    transition: 2s all ease;
+}
+
+#dispImg{
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+#dispCont{
+    height: 30%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2%;
+    border-radius: 0px 0px 4px 4px;
+}
+#subBtn1 {
+    border-style: solid;
+    border-radius: 6px;
+    background-color: var(--mainCol);
+    padding: 6px;
+    color: white;
+    cursor: pointer;
+    border-width: 1px;
+    cursor: pointer;
+    padding-left: 38%;
+    padding-right: 38%;
+}
+
+#subBtn1:hover {
+    background-color: white;
+    border-color: var(--mainCol);
+    color: var(--mainCol);
+}
+@media only screen and (max-width: 640px) {
+    #dispCard {
+        height: 220px;
+        width: 300px;
+        margin-left: 12%;
+        margin-top: 10%;
+    }
+    #subBtn1{
+        padding-left: 36%;
+        padding-right: 36%;
+    }
+}
